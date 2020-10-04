@@ -1,0 +1,26 @@
+nav {
+  padding: clamp(10px, 2vw, 20px) 0px;
+  padding-left: 10px;
+  font-size: 0.75em;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  padding: clamp(5px, 1vw, 10px);
+  border-radius: 20px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #464240;
+}
+
+a:hover {
+  text-decoration: underline;
+}
